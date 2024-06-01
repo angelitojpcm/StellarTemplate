@@ -1,6 +1,6 @@
 # Nombre del Proyecto
 
-[![Estado del proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)](https://github.com/tu-usuario/nombre-del-repositorio)
+[![Estado del proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)](https://github.com/angelitojpcm/StellarTemplate)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)](https://github.com/tu-usuario/nombre-del-repositorio/blob/main/LICENSE)
 
 Breve descripción del proyecto. Por ejemplo: "Este proyecto es una página web interactiva que proporciona información sobre [tema] y permite a los usuarios [funcionalidad principal]."
