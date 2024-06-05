@@ -84,4 +84,5 @@ Para obtener más detalles sobre los términos y condiciones de la Licencia MIT,
 
 ## Contacto 📧
 
-Si tienes preguntas o comentarios, no dudes en ponerte en contacto conmigo a través de mi perfil de [GitHub](https://github.com/angelitojpcm) o mi dirección de correo electrónico: [tu_email@example.com](mailto:tu_email@example.com).
+Si tienes preguntas o comentarios, no dudes en ponerte en contacto conmigo a través de mi perfil de [GitHub](https://github.com/angelitojpcm) o mi dirección de correo electrónico profesional [atte@angelitosystems.com](mailto:atte@angelitosystems.com), o a mi correo personal que es [angelitojpcmantilla22@gmail.com](mailto:angelitojpcmantilla22@gmail.com).
+
