@@ -56,7 +56,10 @@ Para utilizar StellarTemplate en tu propio proyecto, sigue estos pasos:
 
 Siguiendo estos pasos, podrás utilizar y personalizar StellarTemplate para crear tu propia página web de forma rápida y sencilla.
 
-## Demostración
+## Demostración 🖥️
+Esta sección incluye una demostración del proyecto en acción. Puedes ver la página web en vivo haciendo clic en el siguiente enlace: [Demostración](https://stellar-template.vercel.app/).
+
+También puedes ver el siguiente video de demostración.
 
 [Vista Previa](https://github.com/angelitojpcm/StellarTemplate/assets/150268753/4e644eee-09b2-4010-8735-11eea423fcc4)
 
