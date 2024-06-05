@@ -30,6 +30,7 @@
       this.topBar();
       this.scrollUp();
       this.testimonials();
+      this.show_by_scroll();
     },
     topBar: function (e) {
       let topbar = $("header .topbar");
@@ -119,6 +120,26 @@
           showTestimonials();
           updateButtons();
         }
+      });
+    },
+    show_by_scroll: function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        const sections = document.querySelectorAll('.reveal');
+      
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('active');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1
+        });
+      
+        sections.forEach(section => {
+          observer.observe(section);
+        });
       });
     },
   };
