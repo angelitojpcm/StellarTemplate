@@ -11,6 +11,7 @@ StellarTemplate es un proyecto de plantilla para la creación de páginas web in
 - [Características](#características)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Demostración](#demostración)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
@@ -54,6 +55,10 @@ Para utilizar StellarTemplate en tu propio proyecto, sigue estos pasos:
 5. **Iterar y Mejorar**: Continúa iterando y mejorando tu proyecto según sea necesario. A medida que trabajas en él, considera agregar nuevas características, optimizar el rendimiento y mejorar la experiencia del usuario.
 
 Siguiendo estos pasos, podrás utilizar y personalizar StellarTemplate para crear tu propia página web de forma rápida y sencilla.
+
+## Demostración
+
+[Vista Previa](https://github.com/angelitojpcm/StellarTemplate/assets/150268753/4e644eee-09b2-4010-8735-11eea423fcc4)
 
 ## Contribuir 🤝
 
