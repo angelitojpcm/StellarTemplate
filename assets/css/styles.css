@@ -465,16 +465,16 @@ main .services .services-title:after {
 main .services .services-title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px; 
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #333;
 }
 
 main .services .services-description {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 main .services .service {
   flex: 1;
@@ -496,16 +496,16 @@ main .services .service h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  color: #333;
   text-align: center;
 }
 
 main .services .service p {
   font-size: 16px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  color: #666; 
+  font-family: "Roboto", sans-serif;
+  color: #666;
   text-align: justify;
 }
 
@@ -513,15 +513,15 @@ main .services .service .service-img-container {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  border-radius: 15px; 
-  margin-bottom: 15px; 
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 main .services .service .service-img-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
-  border-radius: 15px; 
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 main .services .service .service-link {
@@ -546,13 +546,13 @@ main .services .service .service-link:hover {
 /*====================================================
 TEAM SECTION SLIDER STYLES
 ====================================================*/
-main .team .team-container{
+main .team .team-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-main .team .team-title:after{
+main .team .team-title:after {
   content: "";
   display: block;
   width: 100px;
@@ -561,26 +561,25 @@ main .team .team-title:after{
   margin: 0 auto 20px;
 }
 
-main .team .team-title{
+main .team .team-title {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px; 
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #333;
   position: relative;
 }
 
-main .team .team-description{
+main .team .team-description {
   text-align: center;
   margin: 0 auto 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  max-width: 600px; 
+  max-width: 600px;
 }
 
-
-main .team .team-member{
+main .team .team-member {
   display: 0 0 calc(33.333% - 20px);
   justify-content: center;
   align-items: center;
@@ -589,7 +588,7 @@ main .team .team-member{
   margin-bottom: 20px;
 }
 
-main .team .team-member .member-profile{
+main .team .team-member .member-profile {
   position: relative;
   overflow: hidden;
   padding: 20px;
@@ -613,73 +612,72 @@ main .team .team-member .member-profile:hover {
 }
 
 main .team .team-member .member-profile img {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 main .team .team-member .member-profile:hover img {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 main .team .team-member .member-profile .member-social {
-  position: absolute; 
-  bottom: 100px; 
-  right: 10px; 
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
   width: 40px;
   opacity: 0;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
 main .team .team-member .member-profile:hover .member-social {
-  opacity: 1; 
+  opacity: 1;
 }
 
-main .team .team-member .member-profile .member-social a{
+main .team .team-member .member-profile .member-social a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px; 
-  height: 35px; 
+  width: 35px;
+  height: 35px;
   background-color: #ff4081;
   color: #fff;
   border-radius: 50%;
-  font-size: 20px; 
-  margin: 5px; 
+  font-size: 20px;
+  margin: 5px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-main .team .team-member .member-profile .member-social a:hover{
+main .team .team-member .member-profile .member-social a:hover {
   background-color: #ff6699;
   transform: translateY(-3px);
 }
 
 main .team .team-member .member-profile .member-details {
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
   left: 0;
   right: 0;
   padding: 10px;
-  background-color: rgba(5, 4, 4, 0.801); 
-  z-index: 1; 
-  text-align: center; 
-  display: flex; 
+  background-color: rgba(5, 4, 4, 0.801);
+  z-index: 1;
+  text-align: center;
+  display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
-
 
 main .team .team-member .member-profile .member-details .member-name,
 main .team .team-member .member-profile .member-details .member-role {
-  margin: 0; 
+  margin: 0;
   color: #fff;
 }
 
@@ -689,7 +687,7 @@ PRICING STYLES
 main .pricing {
   padding: 50px 0;
   background-color: #f1f1f1;
-  text-align: center; 
+  text-align: center;
 }
 
 main .pricing .pricing-title:after {
@@ -702,57 +700,52 @@ main .pricing .pricing-title:after {
 }
 
 main .pricing .pricing-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px; 
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #333;
 }
 
 main .pricing .pricing-description {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px; 
-  color: #666; 
-  margin-bottom: 40px; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
 }
 
 main .pricing .pricing-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
-  gap: 30px; 
+  justify-content: center;
+  gap: 30px;
   margin-top: 30px;
 }
 
-main .pricing .pricing-card{
+main .pricing .pricing-card {
   flex: 1;
   padding: 30px;
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 300px; 
+  max-width: 300px;
 }
 
 main .pricing .pricing-card:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Mueve la primera tarjeta hacia arriba */
 main .pricing .pricing-container .pricing-card:nth-child(1) {
   margin-top: -20px;
 }
 
-/* Mueve la segunda tarjeta hacia abajo */
 main .pricing .pricing-container .pricing-card:nth-child(2) {
   margin-top: 20px;
 }
 
-/* Mueve la tercera tarjeta hacia arriba */
 main .pricing .pricing-container .pricing-card:nth-child(3) {
   margin-top: -20px;
 }
-
-/* Continúa la secuencia para las demás tarjetas... */
 
 main .pricing .pricing-card .pricing-title {
   font-size: 24px;
@@ -764,7 +757,7 @@ main .pricing .pricing-card .pricing-price {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333; /* Cambiado el color del precio */
+  color: #333;
 }
 
 main .pricing .pricing-card .pricing-features {
@@ -775,12 +768,12 @@ main .pricing .pricing-card .pricing-features {
 
 main .pricing .pricing-card .pricing-features li {
   margin-bottom: 10px;
-  font-size: 16px; 
-  color: #666; /* Cambiado el color del texto de las características */
+  font-size: 16px;
+  color: #666;
 }
 
 main .pricing .pricing-card .pricing-link {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ff4081;
@@ -789,14 +782,299 @@ main .pricing .pricing-card .pricing-link {
   border-radius: 5px;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 300; /* Cambiado de 'bold' a 300 para hacer el texto más delgado */
-  height: 40px; /* Mantenido en 40px para hacer el enlace menos alto */
+  font-weight: 300;
+  height: 40px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 main .pricing .pricing-card .pricing-link:hover {
-  background-color: #d81b60; 
+  background-color: #d81b60;
 }
+
+/*====================================================
+TESTIMONIALS STYLES
+====================================================*/
+main .testimonials {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+main .testimonials .testimonials-title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff4081;
+  margin: 0 auto 20px;
+}
+
+main .testimonials .testimonials-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #333;
+}
+
+main .testimonials .testimonials-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+main .testimonials .testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+main .testimonials .testimonial {
+  flex: 1;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  position: relative;
+}
+
+main .testimonials .testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .testimonial .testimonial-content {
+  margin-bottom: 20px;
+}
+
+main .testimonial .testimonial-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main .testimonial .testimonial-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .testimonial .testimonial-content .testimonial-name {
+  font-size: 16px;
+  color: #333;
+}
+
+main .testimonial .testimonial-content .testimonial-role {
+  font-size: 16px;
+  color: #666;
+}
+
+main .testimonial .testimonial-content .testimonial-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+main .testimonial .testimonial-content .testimonial-social {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+main .testimonial:hover .testimonial-social {
+  opacity: 1;
+}
+
+main .testimonial .testimonial-content .testimonial-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #ff4081;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .testimonials .testimonial-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+main .testimonials .testimonial-controls .control-btn {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+main .testimonials .testimonial-controls .control-btn:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: #d81b60;
+}
+
+main .testimonials .testimonial-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/*====================================================
+CONTACT STYLES
+====================================================*/
+main .contact {
+  padding: 50px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/contact.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+main .contact .contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main .contact .contact-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  padding-top: 20px;
+}
+
+main .contact .contact-title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff4081;
+  margin: 10px auto 20px;
+}
+
+main .contact .contact-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+main .contact .contact-form-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+main .contact .contact-form {
+  flex: 1;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  margin: 0 auto;
+}
+
+main .contact .contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+main .contact .contact-form .form-group label {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+main .contact .contact-form .form-group input,
+main .contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 16px;
+}
+
+main .contact .contact-form .form-group textarea {
+  height: 200px;
+}
+
+main .contact .contact-form .form-group input:focus,
+main .contact .contact-form .form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main .contact .contact-form .submit-btn {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .contact .contact-form .submit-btn:hover {
+  background-color: #e03572;
+  transform: translateY(-2px);
+}
+
+main .contact .contact-image {
+  max-width: 600px;
+  width: 100%;
+}
+
+main .contact .contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*====================================================
+FOOTER
+====================================================*/
 
 
 
@@ -823,7 +1101,8 @@ Scroll to top button
   cursor: pointer;
   border: none;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 
 .scroll-container .top:hover {
@@ -836,14 +1115,14 @@ Scroll to top button
   visibility: visible;
   opacity: 1;
   transition: visibility 0s, opacity 0.5s linear;
-  animation:  slideIn .5s ease;
+  animation: slideIn 0.5s ease;
 }
 
 .scroll-container.hide {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 0.5s, opacity 0.5s linear;
-  animation:  slideOut .5s ease;
+  animation: slideOut 0.5s ease;
 }
 /*====================================================
 ANIMATIONS
@@ -857,7 +1136,7 @@ ANIMATIONS
   }
 }
 
-@keyframes slideOut{
+@keyframes slideOut {
   from {
     transform: translateY(0);
   }
