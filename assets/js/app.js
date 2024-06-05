@@ -1,6 +1,18 @@
 (function (window, document, $, undefined) {
   "use strict";
 
+  const Toast = Swal.mixin({
+    toast: true,
+    position: "top-end",
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener("mouseenter", Swal.stopTimer);
+      toast.addEventListener("mouseleave", Swal.resumeTimer);
+    },
+  });
+
   var app = {
     i: function (e) {
       app.d();
@@ -15,8 +27,51 @@
         (this.sideNav = $(".rbt-search-dropdown"));
     },
     methods: function (e) {
+      this.dont();
       this.topBar();
-      this.hero();
+      this.scrollUp();
+      this.pricing();
+    },
+    dont: function (e) {
+      $("body").on("contextmenu", function (e) {
+        Toast.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Right click is disabled",
+          animation: true,
+          customClass: {
+            popup: "animated tada",
+          },
+        });
+        return false;
+      });
+      $("body").on("selectstart", function (e) {
+        Toast.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Text selection is disabled",
+          animation: true,
+          customClass: {
+            popup: "animated tada",
+          },
+        });
+        return false;
+      });
+      $("body").on("click", function (e) {
+        if (e.target.tagName == "IMG") {
+          Toast.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Image is disabled",
+            animation: true,
+            customClass: {
+              popup: "animated tada",
+            },
+          });
+          return false;
+        }
+        return false;
+      });
     },
     topBar: function (e) {
       let topbar = $("header .topbar");
@@ -33,21 +88,24 @@
         }
       });
     },
-    hero: function (e) {
-      let hero = $("#hero");
+    scrollUp: function (e) {
+      this._window.scroll(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $(".scroll-container").removeClass("hide").addClass("show");
+          } else {
+            $(".scroll-container").removeClass("show").addClass("hide");
+          }
+        });
+      });
 
-      // Detectar el hover
-      hero.hover(
-        function () {
-          // Esta función se ejecuta cuando el mouse entra
-          $(this).addClass("hover");
-        },
-        function () {
-          // Esta función se ejecuta cuando el mouse sale
-          $(this).removeClass("hover");
-        }
-      );
+      $(".scroll-container").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
     },
+    animation_bar: function (e) {},
+    pricing: function (e) {},
   };
 
   app.i();

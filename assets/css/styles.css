@@ -287,7 +287,7 @@ main .hero {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +296,7 @@ main .hero {
   cursor: pointer;
 }
 
-main .hero.hover {
+main .hero:hover {
   background-image: url("../img/hero2.jpg");
 }
 
@@ -440,7 +440,7 @@ SERVICES STYLES
 ====================================================*/
 main .services {
   padding: 50px 0;
-  background-color: #f8f9fa;
+  background-color: #f1f1f1;
 }
 
 main .services .services-container {
@@ -546,26 +546,13 @@ main .services .service .service-link:hover {
 /*====================================================
 TEAM SECTION SLIDER STYLES
 ====================================================*/
-/* Estilos para la sección de equipo */
-.team {
-  background-color: #f9f9f9;
-  padding: 50px 0;
-  text-align: center;
+main .team .team-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.team-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.team-title {
-  font-size: 2em;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.team-title:after {
+main .team .team-title:after{
   content: "";
   display: block;
   width: 100px;
@@ -574,45 +561,314 @@ TEAM SECTION SLIDER STYLES
   margin: 0 auto 20px;
 }
 
-/* Estilos para el slider de equipo */
-.team-slider {
-  display: flex;
-  overflow-x: auto;
-  gap: 20px;
+main .team .team-title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px; 
+  color: #333; 
+  position: relative;
 }
 
-/* Estilos para la tarjeta de cada miembro del equipo */
-.team-card {
-  flex: 0 0 auto;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+main .team .team-description{
+  text-align: center;
+  margin: 0 auto 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  max-width: 600px; 
 }
 
-.team-img-container {
-  width: 100%;
-  height: 200px;
+
+main .team .team-member{
+  display: 0 0 calc(33.333% - 20px);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+main .team .team-member .member-profile{
+  position: relative;
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
-}
-
-.team-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.team-content {
   padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 20px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.team-name {
-  font-size: 1.5em;
+main .team .team-member .member-profile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .team .team-member .member-profile img {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  transition: transform 0.3s ease; 
+}
+
+main .team .team-member .member-profile:hover img {
+  transform: scale(1.1); 
+}
+
+main .team .team-member .member-profile .member-social {
+  position: absolute; 
+  bottom: 100px; 
+  right: 10px; 
+  width: 40px;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+main .team .team-member .member-profile:hover .member-social {
+  opacity: 1; 
+}
+
+main .team .team-member .member-profile .member-social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px; 
+  height: 35px; 
+  background-color: #ff4081;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px; 
+  margin: 5px; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .team .team-member .member-profile .member-social a:hover{
+  background-color: #ff6699;
+  transform: translateY(-3px);
+}
+
+main .team .team-member .member-profile .member-details {
+  position: absolute;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 1; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+}
+
+main .team .team-member .member-profile .member-details .member-name,
+main .team .team-member .member-profile .member-details .member-role {
+  margin: 0; 
+}
+
+/*====================================================
+PRICING STYLES
+====================================================*/
+main .pricing {
+  padding: 50px 0;
+  background-color: #f1f1f1;
+  text-align: center; 
+}
+
+main .pricing .pricing-title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff4081;
+  margin: 0 auto 20px;
+}
+
+main .pricing .pricing-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px; 
+  color: #333; 
+}
+
+main .pricing .pricing-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; 
+  color: #666; 
+  margin-bottom: 40px; 
+}
+
+main .pricing .pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 30px; 
+  margin-top: 30px;
+}
+
+main .pricing .pricing-card{
+  flex: 1;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px; 
+}
+
+main .pricing .pricing-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Mueve la primera tarjeta hacia arriba */
+main .pricing .pricing-container .pricing-card:nth-child(1) {
+  margin-top: -20px;
+}
+
+/* Mueve la segunda tarjeta hacia abajo */
+main .pricing .pricing-container .pricing-card:nth-child(2) {
+  margin-top: 20px;
+}
+
+/* Mueve la tercera tarjeta hacia arriba */
+main .pricing .pricing-container .pricing-card:nth-child(3) {
+  margin-top: -20px;
+}
+
+/* Continúa la secuencia para las demás tarjetas... */
+
+main .pricing .pricing-card .pricing-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .pricing .pricing-card .pricing-price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Cambiado el color del precio */
+}
+
+main .pricing .pricing-card .pricing-features {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+main .pricing .pricing-card .pricing-features li {
   margin-bottom: 10px;
+  font-size: 16px; 
+  color: #666; /* Cambiado el color del texto de las características */
 }
 
-.team-role {
-  font-size: 1.2em;
-  color: #868e96;
+main .pricing .pricing-card .pricing-link {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300; /* Cambiado de 'bold' a 300 para hacer el texto más delgado */
+  height: 40px; /* Mantenido en 40px para hacer el enlace menos alto */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .pricing .pricing-card .pricing-link:hover {
+  background-color: #d81b60; 
+}
+
+
+
+/*====================================================
+Scroll to top button
+====================================================*/
+.scroll-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-container .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ff4081;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-container .top:hover {
+  background-color: #ff6699;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.scroll-container.show {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+  animation:  slideIn .5s ease;
+}
+
+.scroll-container.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+  animation:  slideOut .5s ease;
+}
+/*====================================================
+ANIMATIONS
+====================================================*/
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut{
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes lineAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
