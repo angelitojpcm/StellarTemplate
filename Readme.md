@@ -47,9 +47,9 @@ Para utilizar StellarTemplate en tu propio proyecto, sigue estos pasos:
    git clone https://github.com/angelitojpcm/StellarTemplate.git
 2. **Abrir con tu Editor de Código**: Una vez que hayas descargado el repositorio, ábrelo en tu editor de código preferido. Esto te permitirá explorar y modificar el código según tus necesidades.
 
-3.**Personalizar el Contenido**: Edita los archivos HTML, CSS y JavaScript según tus preferencias y requisitos. Puedes cambiar el contenido, los estilos y la funcionalidad para adaptar el proyecto a tu proyecto específico.
+3. **Personalizar el Contenido**: Edita los archivos HTML, CSS y JavaScript según tus preferencias y requisitos. Puedes cambiar el contenido, los estilos y la funcionalidad para adaptar el proyecto a tu proyecto específico.
 
-4.**Visualizar en el Navegador**: Después de realizar tus modificaciones, guarda los cambios y abre el archivo index.html en tu navegador web. Esto te permitirá ver la página web y probar las actualizaciones en tiempo real.
+4. **Visualizar en el Navegador**: Después de realizar tus modificaciones, guarda los cambios y abre el archivo index.html en tu navegador web. Esto te permitirá ver la página web y probar las actualizaciones en tiempo real.
 
 5.**Iterar y Mejorar**: Continúa iterando y mejorando tu proyecto según sea necesario. A medida que trabajas en él, considera agregar nuevas características, optimizar el rendimiento y mejorar la experiencia del usuario.
 
