@@ -668,7 +668,7 @@ main .team .team-member .member-profile .member-details {
   left: 0;
   right: 0;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.7); 
+  background-color: rgba(5, 4, 4, 0.801); 
   z-index: 1; 
   text-align: center; 
   display: flex; 
@@ -676,9 +676,11 @@ main .team .team-member .member-profile .member-details {
   justify-content: center; 
 }
 
+
 main .team .team-member .member-profile .member-details .member-name,
 main .team .team-member .member-profile .member-details .member-role {
   margin: 0; 
+  color: #fff;
 }
 
 /*====================================================
