@@ -51,7 +51,7 @@ Para utilizar StellarTemplate en tu propio proyecto, sigue estos pasos:
 
 4. **Visualizar en el Navegador**: Después de realizar tus modificaciones, guarda los cambios y abre el archivo index.html en tu navegador web. Esto te permitirá ver la página web y probar las actualizaciones en tiempo real.
 
-5.**Iterar y Mejorar**: Continúa iterando y mejorando tu proyecto según sea necesario. A medida que trabajas en él, considera agregar nuevas características, optimizar el rendimiento y mejorar la experiencia del usuario.
+5. **Iterar y Mejorar**: Continúa iterando y mejorando tu proyecto según sea necesario. A medida que trabajas en él, considera agregar nuevas características, optimizar el rendimiento y mejorar la experiencia del usuario.
 
 Siguiendo estos pasos, podrás utilizar y personalizar StellarTemplate para crear tu propia página web de forma rápida y sencilla.
 
